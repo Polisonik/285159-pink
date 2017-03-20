@@ -1,0 +1,241 @@
+.form {
+
+}
+
+.form__item {
+
+  &--color {
+    background-color: $form-item-color;
+    padding-bottom: 40px;
+  }
+}
+
+.form__personal {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.form__personal-info {
+
+}
+
+
+.form__text {
+  display: block;
+  font-size: 14px;
+  line-height: 30px;
+  color: $link-color;
+}
+
+.form__field {
+
+  box-sizing: border-box;
+  font-family: "Open Sans", "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $text-color;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  border: 2px solid $border-color;
+  border-radius: 2px;
+  outline: none;
+
+  &:hover {
+    border: 2px solid $border-color-hover;
+  }
+  &:focus{
+    border: 2px solid $border-color-focus;
+  }
+}
+
+
+
+.form__item-title {
+   font-family: "Open Sans", "Open Sans", "Arial", sans-serif;
+   font-size: 14px;
+   line-height: 18px;
+  font-weight: 400;
+  color: $link-color;
+}
+
+.form__achievements {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+
+}
+
+.form__achievements-info {
+  padding-bottom: 66px;
+}
+
+.form__achievements-info:last-child {
+  padding-bottom: 0px;
+}
+
+
+
+.form__check {
+  display: none;
+}
+
+.form__check-description {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $text-color;
+}
+
+.form__check + .form__check-description {
+  position: relative;
+  padding-left: 70px;
+
+}
+
+.form__check + .form__check-description::before {
+  position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    vertical-align: top;
+    width: 35px;
+    height: 35px;
+    background-color: #ffffff;
+    border: 2px solid $border-color;
+    border-radius: 2px;
+
+}
+
+.form__check + .form__check-description:hover::before {
+  cursor: pointer;
+  border: 2px solid #000000;
+
+}
+.form__check:checked + .form__check-description::before {
+  cursor: pointer;
+  background-image: url("");
+}
+
+.form__check:checked + .form__check-description:hover::before {
+  cursor: pointer;
+  border: 2px solid #000000;
+}
+
+
+.form__check:disabled  + .form__check-description::before {
+    border: 2px solid $link-color;
+}
+.form__check:checked:disabled + .form__check-description::before {
+  }
+
+.form__application {
+  margin:0px;
+  padding:0px;
+  list-style: none;
+
+}
+
+.form__application-info {
+  padding-bottom: 56px;
+}
+
+.form__application-info:last-child {
+  padding-bottom: 0px;
+}
+
+.form__radio{
+  display: none;
+}
+
+.form__radio-description {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $text-color;
+}
+
+.form__radio + .form__radio-description {
+  position: relative;
+  padding-left: 70px;
+}
+
+.form__radio + .form__radio-description::before {
+  position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    vertical-align: top;
+    width: 35px;
+    height: 35px;
+    background-color: #ffffff;
+    border: 2px solid $border-color;
+    border-radius: 50%;
+
+}
+
+.form__radio + .form__radio-description:hover::before {
+  cursor: pointer;
+  border: 2px solid #000000;
+
+}
+.form__radio:checked + .form__radio-description::before {
+  cursor: pointer;
+  background-image: url("");
+}
+
+.form__radio:checked + .form__radio-description:hover::before {
+  cursor: pointer;
+  border: 2px solid #000000;
+}
+
+
+.form__radio:disabled  + .form__radio-description::before {
+    border: 2px solid $link-color;
+}
+.form__radio:checked:disabled + .form__radio-description::before {
+  }
+
+.form__textarea {
+  resize: none;
+  border: 2px solid $border-color;
+  border-radius: 2px;
+  color:$text-color;
+  outline: none;
+
+   &:hover {
+    border: 2px solid $border-color-hover;
+   }
+   &:focus{
+    border: 2px solid $border-color-focus;
+   }
+}
+
+@include input-placeholder {
+  color: $text-color;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+@include textarea-placeholder {
+  color: $text-color;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.form__comment {
+  color: $text-color;
+}
+.form__comment span {
+  color: $link-color;
+}
+

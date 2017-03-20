@@ -1,0 +1,18 @@
+.reviews {
+  text-align: center;
+}
+
+.reviews__item-author {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  font-style: normal;
+}
+
+.reviews__item-text {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $text-color;
+}

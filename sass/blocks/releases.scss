@@ -1,0 +1,39 @@
+.releases {
+
+}
+
+.releases__subject {
+ margin: 0 auto;
+}
+
+.releases__item-title {
+  position: relative;
+  background-color: $background-color;
+  color: $text-title-table;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.releases__item-title::after {
+  position: absolute;
+  display: block;
+  content: "";
+  background-image: url("");
+}
+
+
+.releases__item-price {
+  display: block;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.releases__option {
+   border-bottom: 2px solid $border-color;
+}
+
+.releases__option-name {
+
+}

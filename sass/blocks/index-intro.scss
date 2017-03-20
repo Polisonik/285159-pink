@@ -1,0 +1,25 @@
+.index-intro {
+   position: relative;
+   z-index:1;
+   width: 100%;
+   min-height: 395px;
+   background: url("../img/bg-back-mobile@1x.jpg")50% no-repeat;
+   padding-top: 63px;
+
+
+
+}
+
+.index-intro__inner{
+  width: 100%;
+  min-height: 400px;
+  background: transparent url("../img/iphone-hand-mobile@1x.png")50% 100%  no-repeat ;
+
+}
+
+.index-intro__title {
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+
+}
