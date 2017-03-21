@@ -1,19 +1,13 @@
-.features{
-  background-color: #f2f2f2;
+.features {
+  background-color: $background-color-second;
   text-align: center;
 }
-
 .features__item {
   text-align: center;
 }
-
 .features__item-title {
-  color: #283645;
+  color: $text-color-main;
   font-size: 24px;
   line-height: 24px;
   font-weight: 700;
-}
-
-.features__img {
-
 }

@@ -2,45 +2,37 @@
   border: 0px;
   outline: none;
   text-decoration: none;
-
   background-color: $btn-color;
   color: $btn-text-color;
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
   border-radius: 3px;
-
-
   &--sent-form {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
   }
-
-  &--close{
+  &--close {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
   }
-
   &--ok {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 40px;
     padding-right: 40px;
   }
-
   &:hover {
     background-color: $btn-color-hover;
   }
-
   &:active {
     background-color: $btn-color-active;
     color: rgba(255, 255, 255, 0.3);
   }
-
   &:disabled {
     background-color: $btn-color-disabled;
   }

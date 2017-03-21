@@ -1,8 +1,14 @@
 .form-intro {
-   position: relative;
-   z-index:1;
-   width: 100%;
-   min-height: 395px;
-
-  background:  url("../img/bg-back-mobile@1x.jpg") no-repeat;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  min-height: 395px;
+  background: url("../img/bg-back-mobile@1x.jpg") no-repeat;
+}
+.form-intro__title {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  color: $text-title;
 }

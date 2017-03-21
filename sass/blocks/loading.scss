@@ -1,55 +1,36 @@
 .loading {
   width: 100%;
 }
-
 .loading__title {
   font-size: 14px;
   line-height: 30px;
   font-weight: 400;
-  color: $text-color;
+  color: $text-color-main;
 }
-
 .loading__img {
   display: block;
 }
-
-.loading__tools {
-
-}
-
-.loading__tool-list {
+.loading__tools {} .loading__tool-list {
   margin: 0px;
   padding: 0px;
-
   list-style: none;
 }
-
 .loading__tool-item {
   display: inline-block;
   margin-bottom: 20px;
-
 }
-
 .loading__tool {
   display: block;
   margin-bottom: 20px;
   &--crop {
-
-  }
-
+  } 
   &--fill {
-
-  }
-
+  } 
   &--contrast {
-
-  }
-
+  } 
   &--active {
-
   }
 }
-
 .loading__scroll {
   width: 188px;
   background: $background-color;
@@ -58,7 +39,6 @@
   vertical-align: middle;
   cursor: pointer;
 }
-
 .loading__scroll-scale {
   position: absolute;
   display: block;
@@ -66,12 +46,11 @@
   height: 14px;
   background: $background-color-second;
   border-radius: 50%;
-  border: 2px solid $link-color;
+  border: 2px solid $text-color-second;
   top: -7px;
   left: 10px;
   z-index: 1;
-
   &:active {
-    background:$link-color;
+    background: $text-color-second;
   }
 }

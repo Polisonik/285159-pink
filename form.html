@@ -2,40 +2,44 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet">
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
     <header class="page-header">
-      <div class="container">
-        <div class="main-logo">
-          <a class="main-logo__link" href="index.html">Pink</a>
+      <div class="page-header__inner">
+        <div class="page-header__logo">
+          <a class="page-header__logo-link">Pink</a>
         </div>
+
+        <div class="humburger-menu__toggle">
+          <a href="#" class="humburger-menu__toggle-link">Открыть меню</a>
+        </div>
+
         <nav class="main-menu">
-          <button class="main-menu__toggle" type="button">Открыть меню</button>
-          <div class="main-menu__wrapper">
-            <ul class="main-menu__list">
-              <li class="main-menu__item">
-                <a href="index.html" class="main-menu__link">Главная</a>
-              </li>
-              <li class="main-menu__item">
-                <a class="main-menu__link" href="photos.html">Фотографии</a>
-              </li>
-              <li class="main-menu__item">
-                <a class="main-menu__link  main-menu__link--curent">Конкурс</a>
-              </li>
-              <li class="main-menu__item">
-                <a class="main-menu__link" href="#">HMTL Academy</a>
-              </li>
-            </ul>
-          </div>
+          <ul class="main-menu__list">
+            <li class="main-menu__item ">
+              <a class="main-menu__link" href="index.html" >Главная</a>
+            </li>
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="photos.html">Фотографии</a>
+            </li>
+            <li class="main-menu__item  main-menu__item--curent">
+              <a class="main-menu__link">Конкурс</a>
+            </li>
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="https://htmlacademy.ru/">HMTL Academy</a>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
 
-
     <main class="page-content">
       <div class="form-intro">
-        <h1 class="title title--white">Конкурс на самое безбашенное путешествие с Пинк</h1>
+        <div class="form-intro__inner">
+          <h1 class="form-intro__title">Конкурс на самое безбашенное путешествие с Пинк</h1>
+        </div>
       </div>
       <div class="form">
         <div class="introduction">
@@ -60,32 +64,32 @@
               </ul>
             </div>
 
-            <div class="form__item">
+            <div class="form__item  form__item--color">
               <p class="form__item-title">Ваши безбашенные достижения в путешествии</p>
               <ul class="form__achievements">
                 <li class="form__achievements-info">
                   <input class="form__check" type="checkbox" id="selfiey" name="selfiey" checked>
-                  <label class="form__desc" for="selfie">Сделал селфи с акулой</label>
+                  <label class="form__check-description" for="selfiey">Сделал селфи с акулой</label>
                 </li>
                 <li class="form__achievements-info">
                   <input class="form__check" type="checkbox" id="burn" name="burn" checked>
-                  <label class="form__desc" for="burn">Обгорел на пляже</label>
+                  <label class="form__check-description" for="burn">Обгорел на пляже</label>
                 </li>
                 <li class="form__achievements-info">
-                  <input class="form__check" type="checkbox" id="norris" name="norris">
-                  <label class="form__desc" for="norris">Видел Чака Норриса</label>
+                  <input class="form__check" type="checkbox" id="norris" name="norris" disabled >
+                  <label class="form__check-description" for="norris">Видел Чака Норриса</label>
                 </li>
                 <li class="form__achievements-info">
-                  <input class="form__check" type="checkbox" id="souvenir" name="souvenir">
-                  <label class="form__desc" for="souvenir">Накупил сувениров</label>
+                  <input class="form__check" type="checkbox" id="souvenir" name="souvenir" >
+                  <label class="form__check-description" for="souvenir" >Накупил сувениров</label>
                 </li>
                 <li class="form__achievements-info">
                   <input class="form__check" type="checkbox" id="tower" name="tower" checked>
-                  <label class="form__desc" for="tower">Удержал башню</label>
+                  <label class="form__check-description" for="tower">Удержал башню</label>
                 </li>
                 <li class="form__achievements-info">
                   <input class="form__check" type="checkbox" id="hotel" name="hotel">
-                  <label class="form__desc" for="hotel">Разгромил отель</label>
+                  <label class="form__check-description" for="hotel">Разгромил отель</label>
                 </li>
               </ul>
             </div>
@@ -103,20 +107,20 @@
               </ul>
             </div>
 
-            <div class="form__item">
+            <div class="form__item  form__item--color">
               <p class="form__item-title">С каким приложением путешествовали?</p>
               <ul class="form__application">
                 <li class="form__application-info">
                   <input class="form__radio" type="radio" id="ios" name="ios" checked>
-                  <label class="form__desc" for="ios">Pink для iOS</label>
+                  <label class="form__radio-description" for="ios">Pink для iOS</label>
                 </li>
                 <li class="form__application-info">
                   <input class="form__radio" type="radio" id="android" name="android">
-                  <label class="form__desc" for="android">Pink на Android</label>
+                  <label class="form__radio-description" for="android">Pink на Android</label>
                 </li>
                 <li class="form__application-info">
-                  <input class="form__radio" type="radio" id="windows" name="windows">
-                  <label class="form__desc" for="windows">Windows Phone</label>
+                  <input class="form__radio" type="radio" id="windows" name="windows" disabled>
+                  <label class="form__radio-description" for="windows">Windows Phone</label>
                 </li>
               </ul>
             </div>
@@ -126,12 +130,13 @@
               <textarea class="form__textarea" name="emotions" placeholder="Можно прям в красках, не стесняясь в выражениях" rows="10"></textarea>
             </div>
             <button class="btn  btn--sent-form" type="submit" value="Отправить форму">Отправить форму</button>
+
+            <div class="form__comment">
+              <p><span><sup>*</sup></span> &ndash; обязательные поля </p>
+            </div>
           </form>
         </div>
 
-        <div class="comment">
-          <p><span><sup>*</sup></span> &ndash; обязательные поля </p>
-        </div>
       </div>
     </main>
 
@@ -139,26 +144,34 @@
     <footer class="page-footer">
       <div class="logo">
         <a class="logo__link" href="index.html">
-          <img class="logo__img" src="" alt="Pink">Pink
+          <img class="logo__img" src="" widht=""  height="" alt="Pink">Pink
         </a>
       </div>
 
       <div class="footer-links">
         <ul class="footer-links__list">
           <li class="footer-links__item">
-            <a class="social social--twitter" href="#">Twitter</a>
+            <a class="social social--twitter" href="#">
+              <img class="social-img" src="" width="" height="" alt="Twitter">Twitter
+            </a>
           </li>
           <li class="footer-links__item">
-            <a class="social social--facebook" href="#">Facebook</a>
+            <a class="social social--facebook" href="#">
+              <img class="social-img" src="" width="" height="" alt="Facebook">Facebook
+            </a>
           </li>
           <li class="footer-links__item">
-            <a class="social social--youtube" href="#">Youtube</a>
+            <a class="social social--youtube" href="#">
+              <img class="social-img" src="" width="" height="" alt="Youtube">Youtube
+            </a>
           </li>
         </ul>
       </div>
       <div class="footer-copyright">
         <span class="footer-copyright__title">Разработано</span>
-        <a class="social social--academy" href="https://htmlacademy.ru/">HTML Academy</a>
+        <a class="social social--academy" href="https://htmlacademy.ru/">
+          <img class="social-img" src="" width="" height="" alt="HTML Academy">HTML Academy
+        </a>
       </div>
     </footer>
 

@@ -1,34 +1,22 @@
-.footer-links {
-
-}
-
 .footer-links__list {
   margin: 0px;
-  padding:0px;
-
+  padding: 0px;
   list-style: none;
 }
-
 .footer-links__item {
   display: inline-block;
   vertical-align: top;
   padding-right: 20px;
 }
-
 .footer-links__item:last-child {
   padding-right: 20px;
 }
-
 .footer-copyright {
-
+  vertical-align: middle;
 }
-
 .footer-copyright__title {
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
   color: $text-color;
 }
-
-
-
