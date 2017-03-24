@@ -23,12 +23,16 @@
   display: block;
   margin-bottom: 20px;
   &--crop {
-  } 
+    background: url("");
+  }
   &--fill {
-  } 
+    background: url("");
+  }
   &--contrast {
-  } 
+    background: url("");
+  }
   &--active {
+    background: url("");
   }
 }
 .loading__scroll {

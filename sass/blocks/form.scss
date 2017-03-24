@@ -13,7 +13,7 @@
   display: block;
   font-size: 14px;
   line-height: 30px;
-  color: $link-color;
+  color: $text-color-second;
 }
 .form__field {
   box-sizing: border-box;
@@ -21,7 +21,7 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
-  color: $text-color;
+  color: $text-color-main;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
@@ -140,8 +140,8 @@
   height: 15px;
   border-radius: 50%;
   background-color: $text-color-second;
-  top: 11px;
-  left: 11px;
+  top: 12px;
+  left: 12px;
 }
 .form__radio + .form__radio-description:hover::before {
   cursor: pointer;
@@ -167,7 +167,7 @@
   resize: none;
   border: 2px solid $border-color;
   border-radius: 2px;
-  color: $text-color;
+  color: $text-color-main;
   outline: none;
   &:hover {
     border: 2px solid $border-color-hover;
