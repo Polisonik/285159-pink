@@ -6,42 +6,49 @@
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
-    <header class="page-header">
-      <div class="page-header__inner">
-        <div class="page-header__logo">
-          <a class="page-header__logo-link">Pink</a>
+    <div class="wrapper">
+      <header class="page-header">
+        <div class="container">
+          <div class="menu">
+            <div class="menu__links">
+              <div class="logo-main">
+                <a class="logo-main__link">Pink</a>
+              </div>
+
+              <div class="menu__toggle">
+                <a href="#" class="menu__toggle-link" type="button">Открыть меню</a>
+              </div>
+            </div>
+
+            <nav class="menu-open ">
+              <ul class="menu-open__list">
+                <li class="menu-open__item  ">
+                  <a class="menu-open__link" href="index.html">Главная</a>
+                </li>
+                <li class="menu-open__item menu-open__item--curent">
+                  <a class="menu-open__link">Фотографии</a>
+                </li>
+                <li class="menu-open__item">
+                  <a class="menu-open__link" href="form.html">Конкурс</a>
+                </li>
+                <li class="menu-open__item">
+                  <a class="menu-open__link" href="https://htmlacademy.ru/">HMTL Academy</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
-
-        <div class="humburger-menu__toggle">
-          <a href="#" class="humburger-menu__toggle-link">Открыть меню</a>
-        </div>
-
-        <nav class="main-menu">
-          <ul class="main-menu__list">
-            <li class="main-menu__item ">
-              <a class="main-menu__link" href="index.html" >Главная</a>
-            </li>
-            <li class="main-menu__item">
-              <a class="main-menu__link" href="photos.html">Фотографии</a>
-            </li>
-            <li class="main-menu__item  main-menu__item--curent">
-              <a class="main-menu__link">Конкурс</a>
-            </li>
-            <li class="main-menu__item">
-              <a class="main-menu__link" href="https://htmlacademy.ru/">HMTL Academy</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-
-    <main class="page-content">
+      </header>
       <div class="photo-intro">
         <div class="photo-intro__inner">
           <h1 class="photo-intro__title">Фотографии пользователей</h1>
         </div>
       </div>
+    </div>
+
+
+    <main class="page-content">
+
 
       <div class="posts">
         <h2 class="introduction">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</h2>

@@ -7,42 +7,47 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body class="page">
-    <header class="page-header">
-      <div class="page-header__inner">
-        <div class="page-header__logo">
-          <a class="page-header__logo-link">Pink</a>
+    <div class="wrapper">
+      <header class="page-header">
+        <div class="container">
+          <div class="menu">
+            <div class="menu__links">
+              <div class="logo-main">
+                <a class="logo-main__link">Pink</a>
+              </div>
+
+              <div class="menu__toggle">
+                <a href="#" class="menu__toggle-link" type="button">Открыть меню</a>
+              </div>
+            </div>
+
+            <nav class="menu-open ">
+              <ul class="menu-open__list">
+                <li class="menu-open__item  menu-open__item--curent">
+                  <a class="menu-open__link">Главная</a>
+                </li>
+                <li class="menu-open__item">
+                  <a class="menu-open__link" href="photos.html">Фотографии</a>
+                </li>
+                <li class="menu-open__item">
+                  <a class="menu-open__link" href="form.html">Конкурс</a>
+                </li>
+                <li class="menu-open__item">
+                  <a class="menu-open__link" href="https://htmlacademy.ru/">HMTL Academy</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
-
-        <div class="humburger-menu__toggle">
-          <a href="#" class="humburger-menu__toggle-link" type="button">Открыть меню</a>
-        </div>
-
-        <nav class="main-menu">
-          <ul class="main-menu__list">
-            <li class="main-menu__item  main-menu__item--curent">
-              <a class="main-menu__link" href="index.html">Главная</a>
-            </li>
-            <li class="main-menu__item">
-              <a class="main-menu__link" href="photos.html">Фотографии</a>
-            </li>
-            <li class="main-menu__item">
-              <a class="main-menu__link" href="form.html">Конкурс</a>
-            </li>
-            <li class="main-menu__item">
-              <a class="main-menu__link" href="https://htmlacademy.ru/">HMTL Academy</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <main class="page-content">
+      </header>
       <div class="index-intro">
         <div class="index-intro__inner">
           <h1 class="index-intro__title visually-hidden">Взгляните на жизнь иначе!</h1>
         </div>
       </div>
+    </div>
 
+    <main class="page-content">
       <div class="download">
         <a class="button button--download" href="http://www.apple.com">Скачать приложение</a>
         <div class="download__source">
@@ -125,61 +130,36 @@
                   <th class="releases__item-title" colspan="2">База
                     <span class="releases__item-price">1,99 USD</span>
                   </th>
-                </tr>
-                <tr class="releases__option">
-                  <td class="releases__option-name">Розовый фильтр</td>
-                  <td class="releases__option-marker  releases__option-marker--yes">Yes</td>
-                </tr>
-                <tr class="releases__option">
-                  <td class="releases__option-name">Смайлики</td>
-                  <td class="releases__option-marker  releases__item-option-marker--no">No</td>
-                </tr>
-                <tr class="releases__option">
-                  <td class="releases__option__name">Комментарии</td>
-                  <td class="releases__option__marker  release__option__marker--no">No</td>
-                </tr>
-              </table>
-            </section>
-
-            <section class="releases__item  slider__item" id="releases-slide2">
-              <table class="releases__subject">
-                <tr>
                   <th class="releases__item-title" colspan="2">Стандарт
                     <span class="releases__item-price">3,99 USD</span>
                   </th>
-                </tr>
-                <tr>
-                  <td class="release__option">Розовый фильтр</td>
-                  <td class="releases__option__marker  release__option__marker--yes">Yes</td>
-                </tr>
-                <tr class="releases__option">
-                  <td class="releases__option__name">Смайлики</td>
-                  <td class="releases__option__marker  release__option__marker--yes">Yes</td>
-                </tr>
-                <tr class="releases__option">
-                  <td class="releases__option__name">Комментарии</td>
-                  <td class="releases__option__marker  release__option__marker--no">No</td>
-                </tr>
-              </table>
-            </section>
-
-            <section class="releases__item  slider__item" id="releases-slide3">
-              <table class="releases__subject">
-                <tr>
                   <th class="releases__item-title" colspan="2">Анлим
                     <span class="releases__item-price">9,99 USD</span>
                   </th>
                 </tr>
-                <tr>
-                  <td class="releases__option">Розовый фильтр</td>
+                <tr class="releases__option">
+                  <td class="releases__option-name">Розовый фильтр</td>
+                  <td class="releases__option-marker  releases__option-marker--yes">Yes</td>
+                  <td class="release__option">Розовый фильтр</td>
+                  <td class="releases__option__marker  release__option__marker--yes">Yes</td>
+
+                  <td class="release__option">Розовый фильтр</td>
                   <td class="releases__option__marker  release__option__marker--yes">Yes</td>
                 </tr>
-                <tr>
-                  <td class="releases__option">Смайлики</td>
-                  <td class="releases__option__marker  release__option__marker--yes">Yes</td>
+                <tr class="releases__option">
+                  <td class="releases__option-name">Смайлики</td>
+                  <td class="releases__option-marker  releases__item-option-marker--no">No</td>
+                  <td class="releases__option-name">Смайлики</td>
+                  <td class="releases__option-marker  releases__item-option-marker--yes">Yes</td>
+                  <td class="releases__option-name">Смайлики</td>
+                  <td class="releases__option-marker  releases__item-option-marker--yes">Yes</td>
                 </tr>
-                <tr>
-                  <td class="releases__option">Комментарии</td>
+                <tr class="releases__option">
+                  <td class="releases__option__name">Комментарии</td>
+                  <td class="releases__option__marker  release__option__marker--no">No</td>
+                  <td class="releases__option__name">Комментарии</td>
+                  <td class="releases__option__marker  release__option__marker--no">No</td>
+                  <td class="releases__option__name">Комментарии</td>
                   <td class="releases__option__marker  release__option__marker--yes">Yes</td>
                 </tr>
               </table>

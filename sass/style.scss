@@ -6,12 +6,19 @@
 
 @import "global/font.scss";
 
+@import "blocks/page.scss";
+
+@import "blocks/container.scss";
+
 @import "blocks/page-header.scss";
 
 @import "blocks/wrapper.scss";
 
+@import "blocks/menu.scss";
 
-@import "blocks/main-menu.scss";
+@import "blocks/logo-main.scss";
+
+@import "blocks/menu-open.scss";
 
 @import "blocks/index-intro.scss";
 
