@@ -1,0 +1,57 @@
+.posts {
+}
+.posts__day {
+  position: relative;
+  margin-bottom: 10px;
+}
+.posts__day::after {
+  content: "Панорама дня";
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  position: absolute;
+  top: 0;
+  left: 160px;
+  width: 140px;
+  height: 36px;
+  background-color: $text-color-second;
+  padding-top: 10px;
+}
+.posts__panorama {
+  display: block;
+}
+.posts__item {
+  margin-bottom: 10px;
+}
+.posts__img {
+  display: block;
+}
+.posts__description {
+  background-color: $form-item-color;
+}
+.posts__author {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $background-color;
+}
+.posts__time {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  color: $background-color;
+  text-transform: uppercase;
+}
+.posts__text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $background-color;
+}
+.posts__like {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $text-color-second;
+  text-transform: uppercase;
+}

@@ -1,0 +1,55 @@
+.contacts {
+  margin: 0 auto;
+  text-align: center;
+}
+.contacts__title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  color: $text-color-main;
+}
+.contacts__list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.contacts__detail {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: $text-color-main;
+}
+.contacts__detail-tel {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 24px;
+  color: $text-color-second;
+  text-decoration: none;
+}
+.contacts__detail-mail {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 24px;
+  color: $text-color-second;
+  text-decoration: none;
+  &:hover {
+    color: $text-color-main;
+  }
+  &:active {
+    color: $mail-color-active;
+  }
+}
+.contacts__detail-adress {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 24px;
+  color: $text-color-second;
+}

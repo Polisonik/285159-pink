@@ -1,0 +1,58 @@
+.button {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  outline: none;
+  &--download {
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+  }
+  &--download:hover {
+    background-color: #ffffff;
+    color: $text-color-second;
+  }
+  &--download:active {
+    background-color: #ffffff;
+    color: lighten($text-color-second, 30%);
+  }
+  &--post {
+    color: $text-color-second;
+    border: 3px solid $text-color-second;
+    box-shadow: 0;
+    background: $background-color-second;
+  }
+  &--post:hover {
+    color: $button-loading-color-hvr;
+    background-color: $text-color-second;
+  }
+  &--post:active {
+    color: $button-loading-color-active;
+    background-color: $text-color-second;
+  }
+  &--cancel {
+    color: $button-cancel-color;
+    border: 3px solid $button-cancel-color;
+    box-shadow: 0;
+    background: $background-color-second;
+  }
+  &--cancel:hover {
+    color: $button-cancel-color-hvr;
+    border: 3px solid $button-cancel-color-hvr;
+    background-color: $background-color-second;
+  }
+  &--cancel:active {
+    background-color: $button-cancel-color-hvr;
+    color: $button-cancel-color-active;
+  }
+}
